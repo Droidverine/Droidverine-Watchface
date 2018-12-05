@@ -1,0 +1,217 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:18:1-66:12
+INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:18:1-66:12
+INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:18:1-66:12
+INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:18:1-66:12
+MERGED from [com.google.android.support:wearable:2.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\wearable-2.0.0.aar\b24313a52277ffd51e8388fa1d34f85a\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-wearable-16.0.1.aar\7d42e04a6d4acf34d6cad83be76121a5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:percent:23.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\percent-23.0.1.aar\977a25cd94c19e30b3d85fe7071ce440\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:recyclerview-v7:23.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.0.1.aar\dccc96bd0c00ae89624bca7a3ae23859\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9f0bb914f91bd4a320e7828e20d662ce\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\cb63ae6712ab07f735af0d47055f4c42\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\ed0910ce2b8d96b39c1aeeb9e9d4c897\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d184e688a977e26e8fb732ba6b11736e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\8af1baceb31a104e88fb3afc97a88f4f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4824d79bf063d3ae0b28f2c3660984fd\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\820e0a1e3563b1b91cbbad43b8b75e0a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\29a277f3ebd01a90f1f709c7ebd3c43f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\31926eedf5744081fc2c08ee724d6f24\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5f6932f1c509f443f86754cbce7e689f\AndroidManifest.xml:17:1-30:12
+INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:18:1-66:12
+INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:18:1-66:12
+INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:18:1-66:12
+	package
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:20:5-66
+		INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:18:1-66:12
+		INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:19:5-51
+	android:versionCode
+		INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:18:1-66:12
+		INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:18:11-69
+uses-feature#android.hardware.type.watch
+ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:22:5-64
+	android:name
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:22:19-61
+uses-permission#com.google.android.permission.PROVIDE_BACKGROUND
+ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:25:5-88
+	android:name
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:25:22-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:26:5-68
+	android:name
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:26:22-65
+application
+ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.android.support:wearable:2.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\wearable-2.0.0.aar\b24313a52277ffd51e8388fa1d34f85a\AndroidManifest.xml:6:5-19
+MERGED from [com.google.android.support:wearable:2.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\wearable-2.0.0.aar\b24313a52277ffd51e8388fa1d34f85a\AndroidManifest.xml:6:5-19
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-wearable-16.0.1.aar\7d42e04a6d4acf34d6cad83be76121a5\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-wearable-16.0.1.aar\7d42e04a6d4acf34d6cad83be76121a5\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:percent:23.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\percent-23.0.1.aar\977a25cd94c19e30b3d85fe7071ce440\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:percent:23.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\percent-23.0.1.aar\977a25cd94c19e30b3d85fe7071ce440\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9f0bb914f91bd4a320e7828e20d662ce\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9f0bb914f91bd4a320e7828e20d662ce\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\cb63ae6712ab07f735af0d47055f4c42\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\cb63ae6712ab07f735af0d47055f4c42\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\ed0910ce2b8d96b39c1aeeb9e9d4c897\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\ed0910ce2b8d96b39c1aeeb9e9d4c897\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d184e688a977e26e8fb732ba6b11736e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d184e688a977e26e8fb732ba6b11736e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\8af1baceb31a104e88fb3afc97a88f4f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\8af1baceb31a104e88fb3afc97a88f4f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4824d79bf063d3ae0b28f2c3660984fd\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4824d79bf063d3ae0b28f2c3660984fd\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\820e0a1e3563b1b91cbbad43b8b75e0a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\820e0a1e3563b1b91cbbad43b8b75e0a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\29a277f3ebd01a90f1f709c7ebd3c43f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\29a277f3ebd01a90f1f709c7ebd3c43f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\31926eedf5744081fc2c08ee724d6f24\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\31926eedf5744081fc2c08ee724d6f24\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5f6932f1c509f443f86754cbce7e689f\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5f6932f1c509f443f86754cbce7e689f\AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:30:9-41
+	tools:ignore
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:32:9-46
+	android:allowBackup
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:29:9-35
+	android:theme
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:31:9-59
+service#com.droidverine.beardfacedigital.beardfacecompanion.MyWatchFaceService
+ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:33:9-59:19
+	android:label
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:35:13-51
+	android:permission
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:36:13-67
+	android:name
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:34:13-47
+meta-data#android.service.wallpaper
+ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:37:13-39:54
+	android:resource
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:39:17-51
+	android:name
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:38:17-57
+meta-data#com.google.android.wearable.watchface.preview
+ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:40:13-42:63
+	android:resource
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:42:17-60
+	android:name
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:41:17-77
+meta-data#com.google.android.wearable.watchface.preview_circular
+ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:43:13-45:63
+	android:resource
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:45:17-60
+	android:name
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:44:17-86
+intent-filter#action:name:android.service.wallpaper.WallpaperService+category:name:com.google.android.wearable.watchface.category.WATCH_FACE
+ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:47:13-52:29
+action#android.service.wallpaper.WallpaperService
+ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:49:17-85
+	android:name
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:49:25-82
+category#com.google.android.wearable.watchface.category.WATCH_FACE
+ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:51:17-102
+	android:name
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:51:27-99
+intent-filter#action:name:com.google.android.gms.wearable.DATA_CHANGED+data:host:*+data:scheme:wear
+ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:53:13-58:29
+action#com.google.android.gms.wearable.DATA_CHANGED
+ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:54:17-86
+	android:name
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:54:25-84
+data
+ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:55:17-57:19
+	android:host
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:56:21-37
+	android:scheme
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:55:23-44
+meta-data#com.google.android.gms.version
+ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:61:9-63:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\ed0910ce2b8d96b39c1aeeb9e9d4c897\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\ed0910ce2b8d96b39c1aeeb9e9d4c897\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:63:13-66
+	android:name
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml:62:13-58
+uses-sdk
+INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml
+INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml
+MERGED from [com.google.android.support:wearable:2.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\wearable-2.0.0.aar\b24313a52277ffd51e8388fa1d34f85a\AndroidManifest.xml:4:5-72
+MERGED from [com.google.android.support:wearable:2.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\wearable-2.0.0.aar\b24313a52277ffd51e8388fa1d34f85a\AndroidManifest.xml:4:5-72
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-wearable-16.0.1.aar\7d42e04a6d4acf34d6cad83be76121a5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-wearable-16.0.1.aar\7d42e04a6d4acf34d6cad83be76121a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:percent:23.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\percent-23.0.1.aar\977a25cd94c19e30b3d85fe7071ce440\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:percent:23.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\percent-23.0.1.aar\977a25cd94c19e30b3d85fe7071ce440\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.0.1.aar\dccc96bd0c00ae89624bca7a3ae23859\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.0.1.aar\dccc96bd0c00ae89624bca7a3ae23859\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9f0bb914f91bd4a320e7828e20d662ce\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9f0bb914f91bd4a320e7828e20d662ce\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\cb63ae6712ab07f735af0d47055f4c42\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\cb63ae6712ab07f735af0d47055f4c42\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\ed0910ce2b8d96b39c1aeeb9e9d4c897\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\ed0910ce2b8d96b39c1aeeb9e9d4c897\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d184e688a977e26e8fb732ba6b11736e\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d184e688a977e26e8fb732ba6b11736e\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\8af1baceb31a104e88fb3afc97a88f4f\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\8af1baceb31a104e88fb3afc97a88f4f\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4824d79bf063d3ae0b28f2c3660984fd\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4824d79bf063d3ae0b28f2c3660984fd\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\820e0a1e3563b1b91cbbad43b8b75e0a\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\820e0a1e3563b1b91cbbad43b8b75e0a\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\29a277f3ebd01a90f1f709c7ebd3c43f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\29a277f3ebd01a90f1f709c7ebd3c43f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\31926eedf5744081fc2c08ee724d6f24\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\31926eedf5744081fc2c08ee724d6f24\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5f6932f1c509f443f86754cbce7e689f\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5f6932f1c509f443f86754cbce7e689f\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml
+INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d184e688a977e26e8fb732ba6b11736e\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml
+		ADDED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\WatchFaces\watchface-master\4-ambient\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9f0bb914f91bd4a320e7828e20d662ce\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9f0bb914f91bd4a320e7828e20d662ce\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9f0bb914f91bd4a320e7828e20d662ce\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9f0bb914f91bd4a320e7828e20d662ce\AndroidManifest.xml:24:13-79
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d184e688a977e26e8fb732ba6b11736e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\8af1baceb31a104e88fb3afc97a88f4f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\8af1baceb31a104e88fb3afc97a88f4f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4824d79bf063d3ae0b28f2c3660984fd\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4824d79bf063d3ae0b28f2c3660984fd\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\820e0a1e3563b1b91cbbad43b8b75e0a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\820e0a1e3563b1b91cbbad43b8b75e0a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\29a277f3ebd01a90f1f709c7ebd3c43f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\29a277f3ebd01a90f1f709c7ebd3c43f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\31926eedf5744081fc2c08ee724d6f24\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\31926eedf5744081fc2c08ee724d6f24\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d184e688a977e26e8fb732ba6b11736e\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d184e688a977e26e8fb732ba6b11736e\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5f6932f1c509f443f86754cbce7e689f\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5f6932f1c509f443f86754cbce7e689f\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5f6932f1c509f443f86754cbce7e689f\AndroidManifest.xml:26:13-58

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\3aee2b2a82e1b71e22dfee1706c13b01707f421b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="7038c6d960d3fe26fd41bc509f256c9692d886ce">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\classes_c9dbbdf462f159c5137d00fb73d2b357e0c31dce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\2b462c3a37bfc4b8a58e7eae5c41d7265ca6992d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4d2b8ad415048e88b41ba4afcaafe36150e69b8c">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\classes_32fd52e17ca97fde9bed89d06edff507856717ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\7bda2668de6d7940f6362af981a9862947cf613d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ae6d33f37143b08cd8c477c9e348d61ef7ed7eba">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\classes_e619ffdbca3bdc4dae7cb7b5c663e4081b3f15fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\common-1.1.0_c08c7745dc8200bbb80bd6a844e81c8796e03a8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\ba8a5804fcdd203abd26046fb84f301a6ed5accc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="88c68e5ef7c5ace393d014c9ec5fe736b1ca55cf">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\classes_9451a79d3a98bce765e806ba51f28e994129be12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\cf26d2ccbe5cd781773c647c86aa06fd492f14fd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ec657bb192b20229696216bf233779b16bf75a54">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\classes_bd1a5d16a1f6064dfaf7daaa03ca610ff145cebc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\9a272d5824da83c98e9050b28e846caee2be446e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="71d380aeac037e63bab7bda2ba211777e16a2f42">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\classes_177df4650b92c1e283f5a2472372dcd4e1f6da4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\12580a2d09f29f1e7bbfb3503101b11cc4dd26df\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="874f1143c11f5d38533efe512bf913e3e847e7df">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\classes_13493146caedbb4b42427ff52f4b714301aa8368.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\4670a5dc57e7ab91b65bb5f86af3e35cda4ab529\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\classes_b07f583a83906c12f7a94cbdf89aaf3cabf99ae6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\51d7872a4cd4d4a4de077d36d82164b5f7b865df\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2feadd535770271ca57b7b431f42151aa4af324a">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\classes_2a83169dd57b159be544707c07167450b1033859.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\b2ff63b97949235dd13d961e7b1514018e198634\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c9a721adcd7dbae7a197b0ef81102336539f63ff">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\classes_84c274260cdd5e07568da1cfc4631573c0db6639.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.1.1\39ded76b5e1ce1c5b2688e1d25cdc20ecee32007\support-annotations-27.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\support-annotations-27.1.1_af1e3e4a4f9c2c3ad0d819c6164c36890539b578.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\cfffe4f5c6ae7c7703e1c959cfb28ea4a9cea435\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="b15c6ded887ad967e20bb335c1a121b253c04dce">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\classes_c3aeee14b3d83b04fd487c160da986e2022d116e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\941d55986d80d4b3de228b51be46b932d8db3cb9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\classes_f2e6dedff356f31421b8aba84331ed4745a8485d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\f095e5a6fa90300e8ebfaa108d9f626211ccd47e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8a9fd7c97f1d13f97f3b52f9d2e54cd857d5acf9">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\classes_118526d00f91ba302d01f77e097494214f381adf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.3\bde0667d7414c16ed62d3cfe993cff7f9d732373\constraint-layout-solver-1.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="bde0667d7414c16ed62d3cfe993cff7f9d732373">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.1.3_364d77aaae43ec900692181482ef2fdd6df02bdf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\3c7d9d62cb821fd8ca683c300ee8293896db3c7e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3304d33470ff64cf83bce9189ff3648a42eb2aa7">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\classes_03f82316a5c15f38e727da276edb3a546b646c41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\27723aead3c933825ec7fb2d4ce0f9859342c3c0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d968b9bd0011800e0d333d1571b8d34bcb8a0b6e">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\classes_0e33a1e18752fe2bf64fd9c02e76b84980afe926.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.0\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0edf3f7bfb84a7521d0599efa3b0113a0ee90f85">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\common-1.1.0_b9a705f61b8e7a045c1f41ce3d9c11f90c7987c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DELL\.android\build-cache\fabf314d5ec4860252db4571b58debb4d26caf56\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="23dcb4803d3103bde3f3f5db978a726338fe49ae">
+        <dex dex="E:\Projects\WatchFaces\watchface-master\beardfacecompanion\build\intermediates\pre-dexed\debug\classes_acf1769830bba90bb1233cc8d116bd66c408beca.jar" />
+    </item>
+
+</items>
