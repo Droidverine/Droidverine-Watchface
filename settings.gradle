@@ -15,4 +15,4 @@ include ':beardfacecompanion'
  * limitations under the License.
  */
 
-include '1-base', '2-background', '3-hands', '4-ambient', '5-palette'
+include  'wearapp'

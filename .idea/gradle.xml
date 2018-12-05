@@ -8,12 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/1-base" />
-            <option value="$PROJECT_DIR$/2-background" />
-            <option value="$PROJECT_DIR$/3-hands" />
-            <option value="$PROJECT_DIR$/4-ambient" />
-            <option value="$PROJECT_DIR$/5-palette" />
             <option value="$PROJECT_DIR$/beardfacecompanion" />
+            <option value="$PROJECT_DIR$/wearapp" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
