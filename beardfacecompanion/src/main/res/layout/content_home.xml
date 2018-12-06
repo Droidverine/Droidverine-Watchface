@@ -16,7 +16,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Send Text"
+        android:text="Send Drawable1"
        />
+    <Button
+        android:id="@+id/sendbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Send Drawable2"
+        />
 </LinearLayout>
 

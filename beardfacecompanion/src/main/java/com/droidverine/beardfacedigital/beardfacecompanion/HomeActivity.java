@@ -32,8 +32,11 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.ResolvingResultCallbacks;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.gms.wearable.Asset;
 import com.google.android.gms.wearable.DataApi;
+import com.google.android.gms.wearable.DataItem;
 import com.google.android.gms.wearable.PutDataMapRequest;
 import com.google.android.gms.wearable.PutDataRequest;
 import com.google.android.gms.wearable.Wearable;
@@ -44,11 +47,13 @@ import java.io.IOException;
 import java.util.Date;
 import java.util.Random;
 
+import static android.util.Config.LOGD;
+
 
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener//,GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener
 {
   EditText editText;
-  Button btnsend;
+  Button btnsend,btnsend1;
   GoogleApiClient googleApiClient;
   private GoogleApiClient mGoogleApiClient;
   Bitmap newImg;
@@ -78,6 +83,9 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 */        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         btnsend=(Button)findViewById(R.id.sendbtn);
+        btnsend1=(Button)findViewById(R.id.sendbtn1);
+        btnsend1.setOnClickListener(this);
+
         btnsend.setOnClickListener(this);
 
         mGoogleApiClient = new GoogleApiClient.Builder(getApplicationContext())
@@ -130,8 +138,10 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                newImg=BitmapFactory.decodeResource(getResources(), R.drawable.ambip);
                    Asset asset = ConvertAsset(newImg);
                   // SendImgtoWearable(asset);
-                syncWatch("oo","ss",11);
-
+                syncWatch("oo","sjdskkk",11);
+break;
+            case R.id.sendbtn1:
+                syncWatch1("22","ss",00);
         }
 
     }
@@ -152,22 +162,8 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
     }
     */
-    private void SendImgtoWearable(Asset asset)
-    {
-            final PutDataMapRequest putDataMapRequest=PutDataMapRequest.create("/image");
-            putDataMapRequest.getDataMap().putAsset("image",asset);
-            putDataMapRequest.getDataMap().putDouble("time",Math.random());
-            PutDataRequest putDataRequest=putDataMapRequest.asPutDataRequest();
-            Wearable.DataApi.putDataItem(googleApiClient,putDataRequest).setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
-                @Override
-                public void onResult(@NonNull DataApi.DataItemResult dataItemResult) {
-                    Log.d("ghechoco","nacho");
-
-                }
-            });
 
 
-    }
     private Asset ConvertAsset(Bitmap newImg)
     {
         ByteArrayOutputStream byteArrayOutputStream=null;
@@ -193,9 +189,9 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         //  Log.v("SunshineSyncAdapter", "syncWatch");
         String time =  String.valueOf(new Date().getTime());
         PutDataMapRequest putDataMapRequest = PutDataMapRequest.create("/weather-update");
-        putDataMapRequest.getDataMap().putDouble("time", Math.random()); // MOST IMPORTANT LINE FOR TIMESTAMP
+        putDataMapRequest.getDataMap().putDouble("time",  new Date().getTime()); // MOST IMPORTANT LINE FOR TIMESTAMP
         //Bitmap bm = BitmapFactory.decodeResource(getContext().getResources(), Utility.getArtResourceForWeatherCondition(weatherId));
-        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.ambip);
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.droidverine);
         //Asset asset = getContext().getResources().createAssetFromBitmap(bitmap);
         final ByteArrayOutputStream byteStream = new ByteArrayOutputStream();
         bitmap.compress(Bitmap.CompressFormat.PNG, 100, byteStream);
@@ -205,9 +201,56 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         putDataMapRequest.getDataMap().putString("max-temp", max);
         // Log.v("SunshineSyncAdapter", min + time + " " + max + time);
         PutDataRequest request = putDataMapRequest.asPutDataRequest();
+        request.setUrgent();
+        Task<DataItem> dataItemTask = Wearable.getDataClient(this).putDataItem(request);
 
+        dataItemTask.addOnSuccessListener(
+                new OnSuccessListener<DataItem>() {
+                    @Override
+                    public void onSuccess(DataItem dataItem) {
+                        Log.d("lavdechal", "Sending image was successful:");
+                    }
+                });
         if (mGoogleApiClient == null){
              Log.v("SunshineSyncAdapter", "NOOOOOOOOOOOOOOOOO, life is no good");
+            return;
+        }
+
+        Wearable.DataApi.putDataItem(mGoogleApiClient,request).setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
+
+
+            @Override
+            public void onResult(DataApi.DataItemResult dataItemResult) {
+                if (!dataItemResult.getStatus().isSuccess()) {
+                    Log.v("MainActivity", "Something went wrong, watch was not notified");
+                } else {
+                    Log.v("MainActivity", "Success, Watch Notified");
+                }
+            }
+        });
+    }
+    private void syncWatch1(String min, String max, int weatherId){
+        //  Log.v("SunshineSyncAdapter", "syncWatch");
+        Bitmap bitmap1 = BitmapFactory.decodeResource(getResources(), R.drawable.ambip);
+        PutDataMapRequest putDataMapRequest = PutDataMapRequest.create("/weather-update");
+        putDataMapRequest.getDataMap().putDouble("time", new Date().getTime()); // MOST IMPORTANT LINE FOR TIMESTAMP
+        final ByteArrayOutputStream byteStream = new ByteArrayOutputStream();
+        bitmap1.compress(Bitmap.CompressFormat.PNG, 100, byteStream);
+        Asset asset = Asset.createFromBytes(byteStream.toByteArray());
+        putDataMapRequest.getDataMap().putAsset("weather-image", asset);
+        PutDataRequest request = putDataMapRequest.asPutDataRequest();
+        request.setUrgent();
+        Task<DataItem> dataItemTask = Wearable.getDataClient(this).putDataItem(request);
+
+        dataItemTask.addOnSuccessListener(
+                new OnSuccessListener<DataItem>() {
+                    @Override
+                    public void onSuccess(DataItem dataItem) {
+                        Log.d("lavdechal1", "Sending image was successful:");
+                    }
+                });
+        if (mGoogleApiClient == null){
+            Log.v("SunshineSyncAdapter", "NOOOOOOOOOOOOOOOOO, life is no good");
             return;
         }
 

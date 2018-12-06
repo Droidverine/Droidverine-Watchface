@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../1-base/1-base.iml" filepath="$PROJECT_DIR$/../1-base/1-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../2-background/2-background.iml" filepath="$PROJECT_DIR$/../2-background/2-background.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../3-hands/3-hands.iml" filepath="$PROJECT_DIR$/../3-hands/3-hands.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4-ambient.iml" filepath="$PROJECT_DIR$/4-ambient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../5-palette/5-palette.iml" filepath="$PROJECT_DIR$/../5-palette/5-palette.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../watchface-master.iml" filepath="$PROJECT_DIR$/../watchface-master.iml" />
+    </modules>
+  </component>
+</project>
