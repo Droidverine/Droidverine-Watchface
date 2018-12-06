@@ -4,11 +4,15 @@ import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.app.ProgressDialog;
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
 import android.content.Intent;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -26,6 +30,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -35,28 +40,28 @@ import com.google.android.gms.common.api.Status;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.gms.wearable.Asset;
+import com.google.android.gms.wearable.CapabilityApi;
 import com.google.android.gms.wearable.DataApi;
 import com.google.android.gms.wearable.DataItem;
+import com.google.android.gms.wearable.Node;
 import com.google.android.gms.wearable.PutDataMapRequest;
 import com.google.android.gms.wearable.PutDataRequest;
 import com.google.android.gms.wearable.Wearable;
 
-import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.Date;
-import java.util.Random;
-
-import static android.util.Config.LOGD;
+import java.util.List;
 
 
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener//,GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener
 {
-  EditText editText;
-  Button btnsend,btnsend1;
-  GoogleApiClient googleApiClient;
-  private GoogleApiClient mGoogleApiClient;
-  Bitmap newImg;
+    TextView connecteddevice;
+    Button btnsend, btnsend1;
+    private GoogleApiClient mGoogleApiClient;
+    Bitmap newImg;
+    String nodename;
+    ProgressDialog dlg;
 
     @Override
     protected void onStart() {
@@ -66,7 +71,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     protected void onStop() {
-      //  googleApiClient.disconnect();
+        //  googleApiClient.disconnect();
         super.onStop();
     }
 
@@ -74,16 +79,14 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-   /*    commented 15:11
-    GoogleApiClient.Builder builder=new GoogleApiClient.Builder(this);
-        builder.addApi(Wearable.API);
-        builder.addConnectionCallbacks(this).addConnectionCallbacks(this);
-        googleApiClient= builder.build();
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 
-*/        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        btnsend=(Button)findViewById(R.id.sendbtn);
-        btnsend1=(Button)findViewById(R.id.sendbtn1);
+
+        dlg = new ProgressDialog(this);
+        connecteddevice = (TextView) findViewById(R.id.connecteddevice);
+        btnsend = (Button) findViewById(R.id.sendbtn);
+        btnsend1 = (Button) findViewById(R.id.sendbtn1);
         btnsend1.setOnClickListener(this);
 
         btnsend.setOnClickListener(this);
@@ -92,8 +95,12 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                 .addConnectionCallbacks(new GoogleApiClient.ConnectionCallbacks() {
                     @Override
                     public void onConnected(Bundle connectionHint) {
-                        Log.d("connection","estabished");
+                        Log.d("connection", "estabished");
+//                        new DownloadFilesTask().execute();
+                        new DownloadFilesTask().execute();
+
                     }
+
                     @Override
                     public void onConnectionSuspended(int cause) {
                     }
@@ -132,139 +139,90 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        int id=v.getId();
-        switch (id){
+        int id = v.getId();
+        switch (id) {
             case R.id.sendbtn:
-               newImg=BitmapFactory.decodeResource(getResources(), R.drawable.ambip);
-                   Asset asset = ConvertAsset(newImg);
-                  // SendImgtoWearable(asset);
-                syncWatch("oo","sjdskkk",11);
-break;
+                newImg = BitmapFactory.decodeResource(getResources(), R.drawable.ambip);
+                syncWatch("oo", "sjdskkk", 11, newImg);
+                break;
             case R.id.sendbtn1:
-                syncWatch1("22","ss",00);
+                newImg = BitmapFactory.decodeResource(getResources(), R.drawable.droidverine);
+                syncWatch("oo", "sjdskkk", 11, newImg);
+                break;
         }
 
     }
 
-/* commented 15:11
-    @Override
-    public void onConnected(@Nullable Bundle bundle) {
-    Log.d("con","hakon");
+
+    private void syncWatch(String min, String max, int weatherId, Bitmap bitmap) {
+        new DownloadFilesTask().execute();
     }
 
-    @Override
-    public void onConnectionSuspended(int i) {
-
-    }
-
-    @Override
-    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-
-    }
-    */
 
 
-    private Asset ConvertAsset(Bitmap newImg)
-    {
-        ByteArrayOutputStream byteArrayOutputStream=null;
-        try {
-            byteArrayOutputStream = new ByteArrayOutputStream();
-            newImg.compress(Bitmap.CompressFormat.PNG, 100, byteArrayOutputStream);
-            return Asset.createFromBytes(byteArrayOutputStream.toByteArray());
-        }
-        finally {
-            if (null!=byteArrayOutputStream)
-            {
-                try {
-                    byteArrayOutputStream.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
+    private class DownloadFilesTask extends AsyncTask<Void, Void, String> {
+
+
+        @Override
+        protected String doInBackground(Void... voids) {
+            List<Node> connectedNodes =
+                    Wearable.NodeApi.getConnectedNodes(mGoogleApiClient).await().getNodes();
+            nodename = connectedNodes.get(0).getDisplayName();
+            if (newImg != null) {
+
+                PutDataMapRequest putDataMapRequest = PutDataMapRequest.create("/weather-update");
+                putDataMapRequest.getDataMap().putDouble("time", new Date().getTime()); // MOST IMPORTANT LINE FOR TIMESTAMP
+                final ByteArrayOutputStream byteStream = new ByteArrayOutputStream();
+                newImg.compress(Bitmap.CompressFormat.PNG, 100, byteStream);
+                Asset asset = Asset.createFromBytes(byteStream.toByteArray());
+                putDataMapRequest.getDataMap().putAsset("weather-image", asset);
+                PutDataRequest request = putDataMapRequest.asPutDataRequest();
+                request.setUrgent();
+                Task<DataItem> dataItemTask = Wearable.getDataClient(getApplicationContext()).putDataItem(request);
+
+                dataItemTask.addOnSuccessListener(
+                        new OnSuccessListener<DataItem>() {
+                            @Override
+                            public void onSuccess(DataItem dataItem) {
+                                Log.d("Droidverine", " image sent successfully:");
+                            }
+                        });
+                if (mGoogleApiClient == null) {
+                    Log.v("Droidverine", "NOOOOOOOOOOOOOOOOO, life is no good");
                 }
 
-            }
-        }
-    }
-    //new code
-    private void syncWatch(String min, String max, int weatherId){
-        //  Log.v("SunshineSyncAdapter", "syncWatch");
-        String time =  String.valueOf(new Date().getTime());
-        PutDataMapRequest putDataMapRequest = PutDataMapRequest.create("/weather-update");
-        putDataMapRequest.getDataMap().putDouble("time",  new Date().getTime()); // MOST IMPORTANT LINE FOR TIMESTAMP
-        //Bitmap bm = BitmapFactory.decodeResource(getContext().getResources(), Utility.getArtResourceForWeatherCondition(weatherId));
-        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.droidverine);
-        //Asset asset = getContext().getResources().createAssetFromBitmap(bitmap);
-        final ByteArrayOutputStream byteStream = new ByteArrayOutputStream();
-        bitmap.compress(Bitmap.CompressFormat.PNG, 100, byteStream);
-        Asset asset = Asset.createFromBytes(byteStream.toByteArray());
-        putDataMapRequest.getDataMap().putAsset("weather-image", asset);
-        putDataMapRequest.getDataMap().putString("min-temp", min);
-        putDataMapRequest.getDataMap().putString("max-temp", max);
-        // Log.v("SunshineSyncAdapter", min + time + " " + max + time);
-        PutDataRequest request = putDataMapRequest.asPutDataRequest();
-        request.setUrgent();
-        Task<DataItem> dataItemTask = Wearable.getDataClient(this).putDataItem(request);
+                Wearable.DataApi.putDataItem(mGoogleApiClient, request).setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
 
-        dataItemTask.addOnSuccessListener(
-                new OnSuccessListener<DataItem>() {
+
                     @Override
-                    public void onSuccess(DataItem dataItem) {
-                        Log.d("lavdechal", "Sending image was successful:");
+                    public void onResult(DataApi.DataItemResult dataItemResult) {
+                        if (!dataItemResult.getStatus().isSuccess()) {
+                            Log.v("HomeActivity", "Something went wrong, watch was not notified");
+                        } else {
+                            Log.v("HomeActivity", "Success, Watch Notified");
+                        }
                     }
                 });
-        if (mGoogleApiClient == null){
-             Log.v("SunshineSyncAdapter", "NOOOOOOOOOOOOOOOOO, life is no good");
-            return;
+            }
+            return nodename;
         }
 
-        Wearable.DataApi.putDataItem(mGoogleApiClient,request).setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
-
-
-            @Override
-            public void onResult(DataApi.DataItemResult dataItemResult) {
-                if (!dataItemResult.getStatus().isSuccess()) {
-                    Log.v("MainActivity", "Something went wrong, watch was not notified");
-                } else {
-                    Log.v("MainActivity", "Success, Watch Notified");
-                }
-            }
-        });
-    }
-    private void syncWatch1(String min, String max, int weatherId){
-        //  Log.v("SunshineSyncAdapter", "syncWatch");
-        Bitmap bitmap1 = BitmapFactory.decodeResource(getResources(), R.drawable.ambip);
-        PutDataMapRequest putDataMapRequest = PutDataMapRequest.create("/weather-update");
-        putDataMapRequest.getDataMap().putDouble("time", new Date().getTime()); // MOST IMPORTANT LINE FOR TIMESTAMP
-        final ByteArrayOutputStream byteStream = new ByteArrayOutputStream();
-        bitmap1.compress(Bitmap.CompressFormat.PNG, 100, byteStream);
-        Asset asset = Asset.createFromBytes(byteStream.toByteArray());
-        putDataMapRequest.getDataMap().putAsset("weather-image", asset);
-        PutDataRequest request = putDataMapRequest.asPutDataRequest();
-        request.setUrgent();
-        Task<DataItem> dataItemTask = Wearable.getDataClient(this).putDataItem(request);
-
-        dataItemTask.addOnSuccessListener(
-                new OnSuccessListener<DataItem>() {
-                    @Override
-                    public void onSuccess(DataItem dataItem) {
-                        Log.d("lavdechal1", "Sending image was successful:");
-                    }
-                });
-        if (mGoogleApiClient == null){
-            Log.v("SunshineSyncAdapter", "NOOOOOOOOOOOOOOOOO, life is no good");
-            return;
+        @Override
+        protected void onPreExecute() {
+            dlg.setMessage("Setting WatchFace...");
+            dlg.setCancelable(false);
+            dlg.show();
+            super.onPreExecute();
         }
 
-        Wearable.DataApi.putDataItem(mGoogleApiClient,request).setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
-
-
-            @Override
-            public void onResult(DataApi.DataItemResult dataItemResult) {
-                if (!dataItemResult.getStatus().isSuccess()) {
-                    Log.v("MainActivity", "Something went wrong, watch was not notified");
-                } else {
-                    Log.v("MainActivity", "Success, Watch Notified");
-                }
+        @Override
+        protected void onPostExecute(String s) {
+            Log.d("Connected device name", nodename + "");
+            dlg.dismiss();
+            if (s != null) {
+                connecteddevice.setText("Connected Device : " + s);
             }
-        });
+            super.onPostExecute(s);
+        }
     }
 }
