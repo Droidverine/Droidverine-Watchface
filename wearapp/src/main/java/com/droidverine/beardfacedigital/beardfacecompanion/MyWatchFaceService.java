@@ -32,12 +32,14 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.os.PowerManager;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.wearable.watchface.CanvasWatchFaceService;
 import android.support.wearable.watchface.WatchFaceStyle;
 import android.util.Log;
 import android.view.SurfaceHolder;
+import android.view.WindowManager;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -116,18 +118,19 @@ public class MyWatchFaceService extends CanvasWatchFaceService
         private static final float HAND_END_CAP_RADIUS = 4f;
         private static final float STROKE_WIDTH = 4f;
         private static final int SHADOW_RADIUS = 6;
-
+        SurfaceHolder srf;
         private Calendar mCalendar;
         public int pic=0;
         private Paint mBackgroundPaint;
         private Paint mHandPaint;
-
+        String WatchFaceWakelockTag="unizq";
+        PowerManager.WakeLock wakeLock;
         private boolean mAmbient;
         private Bitmap nBackgroundBitmap;
         private Bitmap mBackgroundBitmap;
         private Bitmap mGrayBackgroundBitmap;
         private Bitmap AmbientBitmap;
-
+        PowerManager powerManager;
         GoogleApiClient mGoogleApiClient ;
         private float mHourHandLength;
         private float mMinuteHandLength;
@@ -155,12 +158,17 @@ public class MyWatchFaceService extends CanvasWatchFaceService
         @Override
         public void onCreate(SurfaceHolder holder) {
             super.onCreate(holder);
+            powerManager = (PowerManager) getSystemService(POWER_SERVICE);
 
+            wakeLock = powerManager.newWakeLock(PowerManager.SCREEN_BRIGHT_WAKE_LOCK,WatchFaceWakelockTag);
+
+            srf=holder;
             setWatchFaceStyle(new WatchFaceStyle.Builder(MyWatchFaceService.this).build());
-         //  googleApiClient=new GoogleApiClient.Builder(getApplicationContext())
+            //  googleApiClient=new GoogleApiClient.Builder(getApplicationContext())
            // .addApi(Wearable.API)
            // .addConnectionCallbacks(this).addConnectionCallbacks(this).build();
          // googleApiClient.connect();
+
 
             mBackgroundPaint = new Paint();
             mBackgroundPaint.setColor(Color.BLACK);
@@ -188,6 +196,7 @@ public class MyWatchFaceService extends CanvasWatchFaceService
                     .addOnConnectionFailedListener(this)
                     .build();
             mGoogleApiClient.connect();
+
         }
 
         @Override
@@ -281,10 +290,10 @@ public class MyWatchFaceService extends CanvasWatchFaceService
             long now = System.currentTimeMillis();
 
             mCalendar.setTimeInMillis(now);
-//            googleApiClient.connect();
 
             if (mAmbient && (mLowBitAmbient || mBurnInProtection)) {
                 canvas.drawBitmap(AmbientBitmap, 0, 0, mBackgroundPaint);
+
 
             } else if (mAmbient) {
                 canvas.drawBitmap(AmbientBitmap, 0, 0, mBackgroundPaint);
@@ -295,6 +304,7 @@ public class MyWatchFaceService extends CanvasWatchFaceService
 
             }else {
                 canvas.drawBitmap(mBackgroundBitmap, 0, 0, mBackgroundPaint);
+
             }
 
             /*
@@ -447,12 +457,29 @@ public class MyWatchFaceService extends CanvasWatchFaceService
 
                 try{
                     for(DataEvent dataEvent: dataEvents){
-                        //  Log.v("SunshineWatchFace", "Loop over events");
 
-                        // Log.v("SunshineWatchFace", "Get Data Items");
                         DataItem dataItem = dataEvent.getDataItem();
-                         Log.v("SunshineWatchFace", dataItem.getUri().getPath().toString());
-                         Log.v("SunshineWatchFace", String.valueOf(dataItem.getUri().getPath().compareTo("/weather-update") == 0));
+                       if(dataItem.getUri().getPath().compareTo("/Settings-Screen")==0)
+                       {
+                           DataMapItem dataMapSettings = DataMapItem.fromDataItem(dataEvent.getDataItem());
+                          Boolean Screenpref= dataMapSettings.getDataMap().getBoolean("AlwaysOn");
+                          Log.d("pref",Screenpref.booleanValue()+"");
+                           if(Screenpref)
+                           {
+                               wakeLock.acquire();
+
+                               Log.d("wakelocky","gained");
+
+                           }
+                           else
+                           {
+                              wakeLock.release();
+                               Log.d("wakelocky","released");
+
+
+                           }
+
+                       }
 
                         if(dataItem.getUri().getPath().compareTo("/weather-update") == 0){
                             // Log.v("SunshineWatchFace", "found data items");
@@ -495,6 +522,7 @@ public class MyWatchFaceService extends CanvasWatchFaceService
                 nBackgroundBitmap = Bitmap.createScaledBitmap(b,
                         (int) (b.getWidth() * mScalemutable),
                         (int) (b.getHeight() * mScalemutable), true);
+
 
             }
 

@@ -29,8 +29,9 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:27.1.1'
     compile 'com.android.support.constraint:constraint-layout:1.1.3'
-    compile'com.android.support:cardview-v7:27.+'
+    compile 'com.android.support:cardview-v7:27.+'
     compile 'com.android.support:design:27.1.1'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
 
     testCompile 'junit:junit:4.12'
     implementation 'com.google.android.gms:play-services-wearable:16.0.1'

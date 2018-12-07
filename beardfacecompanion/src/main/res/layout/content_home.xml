@@ -60,12 +60,16 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                >
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:src="@drawable/ambip"
-                android:layout_weight="5"
-                />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    android:src="@drawable/ambip"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
             <Button
                 android:id="@+id/sendbtn"
                 android:layout_width="wrap_content"
@@ -91,13 +95,15 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
               >
-                <ImageView
-                    android:layout_width="match_parent"
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_weight="5"
                     android:src="@drawable/droidverine"
-
-                    />
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
                 <Button
                     android:id="@+id/sendbtn1"
                     android:layout_width="wrap_content"
@@ -133,12 +139,15 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                >
-                <ImageView
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="5"
                     android:src="@drawable/venom"
-                    />
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
                 <Button
                     android:id="@+id/sendbtnvnm"
                     android:layout_width="wrap_content"
@@ -158,6 +167,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="4dp"
+            android:visibility="invisible"
             >
             <LinearLayout
                 android:layout_width="match_parent"
