@@ -16,6 +16,7 @@ package com.droidverine.beardfacedigital.beardfacecompanion;
  */
 
 
+import android.app.Notification;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -33,8 +34,10 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.os.PowerManager;
+import android.os.Vibrator;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v4.app.NotificationCompat;
 import android.support.wearable.watchface.CanvasWatchFaceService;
 import android.support.wearable.watchface.WatchFaceStyle;
 import android.util.Log;
@@ -160,7 +163,7 @@ public class MyWatchFaceService extends CanvasWatchFaceService
             super.onCreate(holder);
             powerManager = (PowerManager) getSystemService(POWER_SERVICE);
 
-            wakeLock = powerManager.newWakeLock(PowerManager.SCREEN_BRIGHT_WAKE_LOCK,WatchFaceWakelockTag);
+            wakeLock = powerManager.newWakeLock((PowerManager.SCREEN_BRIGHT_WAKE_LOCK | PowerManager.FULL_WAKE_LOCK | PowerManager.ACQUIRE_CAUSES_WAKEUP | PowerManager.ON_AFTER_RELEASE), "wakeLock");
 
             srf=holder;
             setWatchFaceStyle(new WatchFaceStyle.Builder(MyWatchFaceService.this).build());
@@ -454,6 +457,8 @@ public class MyWatchFaceService extends CanvasWatchFaceService
             @Override
             public void onDataChanged(DataEventBuffer dataEvents) {
                  Log.v("SunshineWatchFace", "onDataChanged");
+                Vibrator vibrator=(Vibrator)getSystemService(VIBRATOR_SERVICE);
+                vibrator.vibrate(2000);
 
                 try{
                     for(DataEvent dataEvent: dataEvents){
@@ -474,6 +479,7 @@ public class MyWatchFaceService extends CanvasWatchFaceService
                            else
                            {
                               wakeLock.release();
+
                                Log.d("wakelocky","released");
 
 
@@ -522,6 +528,8 @@ public class MyWatchFaceService extends CanvasWatchFaceService
                 nBackgroundBitmap = Bitmap.createScaledBitmap(b,
                         (int) (b.getWidth() * mScalemutable),
                         (int) (b.getHeight() * mScalemutable), true);
+                PowerManager.WakeLock mWakeLock=powerManager.newWakeLock((PowerManager.SCREEN_BRIGHT_WAKE_LOCK | PowerManager.FULL_WAKE_LOCK | PowerManager.ACQUIRE_CAUSES_WAKEUP | PowerManager.ON_AFTER_RELEASE), "wakeLock") ;
+                mWakeLock.acquire(2000);
 
 
             }

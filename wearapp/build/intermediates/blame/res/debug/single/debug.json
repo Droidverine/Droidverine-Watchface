@@ -1,0 +1,606 @@
+[
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_expand_more_white_22.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v21\\ic_expand_more_white_22.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v23_ic_expand_less_white_22.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v23\\ic_expand_less_white_22.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\color_circular_button.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\color\\circular_button.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_alert_dialog_wearable.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout\\alert_dialog_wearable.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout-v23_wearable_drawer_view.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout-v23\\wearable_drawer_view.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_single_page_nav_drawer_7_item.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout\\single_page_nav_drawer_7_item.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light_focused.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout-v21_overlay_confirmation.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout-v21\\overlay_confirmation.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v23_ic_cc_settings_button_e.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v23\\ic_cc_settings_button_e.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_full_cancel.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-hdpi-v4\\ic_full_cancel.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v23_action_item_icon_background.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v23\\action_item_icon_background.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_card_frame.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-mdpi-v4\\card_frame.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\8af1baceb31a104e88fb3afc97a88f4f\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\xml_watch_face.xml.flat",
+        "source": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\src\\main\\res\\xml\\watch_face.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_full_cancel.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-xhdpi-v4\\ic_full_cancel.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_custom_background.jpg.flat",
+        "source": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\src\\main\\res\\drawable-nodpi\\custom_background.jpg"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_tint.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\anim-v21_generic_confirmation_icon_animation.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\anim-v21\\generic_confirmation_icon_animation.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_single_page_nav_drawer_1_item.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout\\single_page_nav_drawer_1_item.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_card_background.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable\\card_background.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_full_sad.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-xhdpi-v4\\ic_full_sad.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_full_sad.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-hdpi-v4\\ic_full_sad.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout-v23_action_drawer_item_view.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout-v23\\action_drawer_item_view.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_open_on_phone_animation_interpolator_0.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\interpolator-v21\\open_on_phone_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\8af1baceb31a104e88fb3afc97a88f4f\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_generic_confirmation_animation_interpolator_1.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\interpolator-v21\\generic_confirmation_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_cc_checkmark.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v21\\ic_cc_checkmark.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_bg.png.flat",
+        "source": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\src\\main\\res\\drawable-nodpi\\bg.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v21_generic_confirmation.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v21\\generic_confirmation.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_full_cancel.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-mdpi-v4\\ic_full_cancel.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_full_open_on_phone.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_single_page_nav_drawer_3_item.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout\\single_page_nav_drawer_3_item.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_ambi.png.flat",
+        "source": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\src\\main\\res\\drawable-nodpi\\ambi.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v21_accept_deny_dialog_positive_bg.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v21\\accept_deny_dialog_positive_bg.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_card_frame_pressed.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-xhdpi-v4\\card_frame_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\color-v21_btn_colored_background_material.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\color-v21\\btn_colored_background_material.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\8af1baceb31a104e88fb3afc97a88f4f\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\8af1baceb31a104e88fb3afc97a88f4f\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\anim-v21_generic_confirmation_generic_confirmation_animation.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\anim-v21\\generic_confirmation_generic_confirmation_animation.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_single_page_nav_drawer_5_item.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout\\single_page_nav_drawer_5_item.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v21_open_on_phone.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v21\\open_on_phone.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark_normal.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_card_frame_pressed.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-hdpi-v4\\card_frame_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v23_ic_more_horiz_24dp_wht.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v23\\ic_more_horiz_24dp_wht.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\anim-v21_open_on_phone_arrow_animation.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\anim-v21\\open_on_phone_arrow_animation.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_card_frame.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-xhdpi-v4\\card_frame.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v21_generic_confirmation_animation.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v21\\generic_confirmation_animation.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-xhdpi-v4\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_single_page_nav_drawer_peek_view.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout\\single_page_nav_drawer_peek_view.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout-v20_watch_card_content.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout-v20\\watch_card_content.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\anim-v21_open_on_phone_path_2_animation.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\anim-v21\\open_on_phone_path_2_animation.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_single_page_nav_drawer_2_item.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout\\single_page_nav_drawer_2_item.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_text_dark.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v21_open_on_phone_animation.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v21\\open_on_phone_animation.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_card_frame.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-hdpi-v4\\card_frame.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout-v23_action_drawer_peek_view.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout-v23\\action_drawer_peek_view.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout-v21_dismiss_overlay.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout-v21\\dismiss_overlay.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\anim-v21_open_on_phone_path_1_animation.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\anim-v21\\open_on_phone_path_1_animation.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_generic_confirmation_animation_interpolator_2.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\interpolator-v21\\generic_confirmation_animation_interpolator_2.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_open_on_phone_animation_interpolator_1.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\interpolator-v21\\open_on_phone_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light_normal.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\8af1baceb31a104e88fb3afc97a88f4f\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\color_card_grey_text_color.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\color\\card_grey_text_color.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\color_card_text_color.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\color\\card_text_color.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_card_frame_pressed.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-mdpi-v4\\card_frame_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\8af1baceb31a104e88fb3afc97a88f4f\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v23_action_item_background.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v23\\action_item_background.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light_focused.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v21_preference_wrapped_icon.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v21\\preference_wrapped_icon.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v21_accept_deny_dialog_negative_bg.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v21\\accept_deny_dialog_negative_bg.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_disabled.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_cc_clear.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v21\\ic_cc_clear.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_single_page_nav_drawer_6_item.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout\\single_page_nav_drawer_6_item.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_preview_analog.png.flat",
+        "source": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\src\\main\\res\\drawable-nodpi\\preview_analog.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\8af1baceb31a104e88fb3afc97a88f4f\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_full_sad.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-mdpi-v4\\ic_full_sad.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\8af1baceb31a104e88fb3afc97a88f4f\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_disabled.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout-v21_accept_deny_dialog.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout-v21\\accept_deny_dialog.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v23_ic_cc_settings_button_bottom.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v23\\ic_cc_settings_button_bottom.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v23_ic_cc_settings_button_center.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v23\\ic_cc_settings_button_center.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\31926eedf5744081fc2c08ee724d6f24\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_single_page_nav_drawer_4_item.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout\\single_page_nav_drawer_4_item.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v23_ic_more_vert_24dp_wht.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v23\\ic_more_vert_24dp_wht.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-v23_ic_cc_settings_button_top.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable-v23\\ic_cc_settings_button_top.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_navigation_drawer_item_view.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout\\navigation_drawer_item_view.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_generic_confirmation_animation_interpolator_0.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\interpolator-v21\\generic_confirmation_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\8af1baceb31a104e88fb3afc97a88f4f\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\animator-v21_circular_image_button_anim.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\animator-v21\\circular_image_button_anim.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_text_light.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_close_button.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\drawable\\close_button.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light_normal.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\layout_navigation_drawer_view.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\layout\\navigation_drawer_view.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\color-v23_button_icon_color.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\color-v23\\button_icon_color.xml"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9f0bb914f91bd4a320e7828e20d662ce\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_generic_confirmation_animation_interpolator_3.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\interpolator-v21\\generic_confirmation_animation_interpolator_3.xml"
+    }
+]
