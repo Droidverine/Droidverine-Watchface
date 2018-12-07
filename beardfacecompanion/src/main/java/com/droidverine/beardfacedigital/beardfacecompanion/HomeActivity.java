@@ -57,7 +57,7 @@ import java.util.List;
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener//,GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener
 {
     TextView connecteddevice;
-    Button btnsend, btnsend1;
+    Button btnsend, btnsend1,btnvnm;
     private GoogleApiClient mGoogleApiClient;
     Bitmap newImg;
     String nodename;
@@ -87,6 +87,8 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         connecteddevice = (TextView) findViewById(R.id.connecteddevice);
         btnsend = (Button) findViewById(R.id.sendbtn);
         btnsend1 = (Button) findViewById(R.id.sendbtn1);
+        btnvnm=(Button)findViewById(R.id.sendbtnvnm);
+        btnvnm.setOnClickListener(this);
         btnsend1.setOnClickListener(this);
 
         btnsend.setOnClickListener(this);
@@ -97,8 +99,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                     public void onConnected(Bundle connectionHint) {
                         Log.d("connection", "estabished");
 //                        new DownloadFilesTask().execute();
-                        new DownloadFilesTask().execute();
-
+                            new DownloadFilesTask().execute();
                     }
 
                     @Override
@@ -147,6 +148,10 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.sendbtn1:
                 newImg = BitmapFactory.decodeResource(getResources(), R.drawable.droidverine);
+                syncWatch("oo", "sjdskkk", 11, newImg);
+                break;
+            case  R.id.sendbtnvnm:
+                newImg = BitmapFactory.decodeResource(getResources(), R.drawable.venom);
                 syncWatch("oo", "sjdskkk", 11, newImg);
                 break;
         }
