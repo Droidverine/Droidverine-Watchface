@@ -2,7 +2,6 @@ package com.droidverine.beardfacedigital.beardfacecompanion;
 
 import android.app.ProgressDialog;
 import android.content.SharedPreferences;
-import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,18 +14,16 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
-import com.google.android.gms.wearable.Asset;
 import com.google.android.gms.wearable.DataApi;
 import com.google.android.gms.wearable.DataItem;
-import com.google.android.gms.wearable.Node;
 import com.google.android.gms.wearable.PutDataMapRequest;
 import com.google.android.gms.wearable.PutDataRequest;
 import com.google.android.gms.wearable.Wearable;
-
-import java.io.ByteArrayOutputStream;
 import java.util.Date;
-import java.util.List;
 
+/**
+ * Created by Shivraj on 12/12/2018.
+ */
 public class SettingsActivity extends AppCompatActivity {
 Switch screensw;
     Boolean status;
