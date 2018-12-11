@@ -1,105 +1,68 @@
 package com.droidverine.beardfacedigital.beardfacecompanion;
 
-import android.app.Notification;
-import android.app.NotificationChannel;
-import android.app.NotificationManager;
-import android.app.PendingIntent;
 import android.app.ProgressDialog;
-import android.bluetooth.BluetoothAdapter;
-import android.bluetooth.BluetoothDevice;
+import android.content.Context;
 import android.content.Intent;
-
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.app.NotificationManagerCompat;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Button;
-import android.widget.EditText;
+import android.widget.GridView;
 import android.widget.TextView;
-
+import com.droidverine.beardfacedigital.beardfacecompanion.Adapters.CustomAdapter;
+import com.droidverine.beardfacedigital.beardfacecompanion.Adapters.Spacecraft;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.api.ResolvingResultCallbacks;
 import com.google.android.gms.common.api.ResultCallback;
-import com.google.android.gms.common.api.Status;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.gms.wearable.Asset;
-import com.google.android.gms.wearable.CapabilityApi;
 import com.google.android.gms.wearable.DataApi;
 import com.google.android.gms.wearable.DataItem;
 import com.google.android.gms.wearable.Node;
 import com.google.android.gms.wearable.PutDataMapRequest;
 import com.google.android.gms.wearable.PutDataRequest;
 import com.google.android.gms.wearable.Wearable;
-
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 
-public class HomeActivity extends AppCompatActivity implements View.OnClickListener//,GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener
-{
+/**
+ * Created by Shivraj on 12/12/2018.
+ */
+
+public class HomeActivity extends AppCompatActivity {
+
     TextView connecteddevice;
-    Button btnsend, btnsend1,btnvnm;
     private GoogleApiClient mGoogleApiClient;
     Bitmap newImg;
+    Context ctx;
     String nodename;
     ProgressDialog dlg;
+    CustomAdapter adapter;
+    GridView gv;
 
-    @Override
-    protected void onStart() {
-//       googleApiClient.connect();
-        super.onStart();
-    }
-
-    @Override
-    protected void onStop() {
-        //  googleApiClient.disconnect();
-        super.onStop();
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-
+        GridView gv = findViewById(R.id.gv);
         setSupportActionBar(toolbar);
-
-        dlg = new ProgressDialog(this);
         connecteddevice = (TextView) findViewById(R.id.connecteddevice);
-        btnsend = (Button) findViewById(R.id.sendbtn);
-        btnsend1 = (Button) findViewById(R.id.sendbtn1);
-        btnvnm=(Button)findViewById(R.id.sendbtnvnm);
-        btnvnm.setOnClickListener(this);
-        btnsend1.setOnClickListener(this);
-
-        btnsend.setOnClickListener(this);
-
         mGoogleApiClient = new GoogleApiClient.Builder(getApplicationContext())
                 .addConnectionCallbacks(new GoogleApiClient.ConnectionCallbacks() {
                     @Override
                     public void onConnected(Bundle connectionHint) {
                         Log.d("connection", "estabished");
-//                        new DownloadFilesTask().execute();
-                            new DownloadFilesTask().execute();
+                        new DownloadFilesTask().execute();
                     }
 
                     @Override
@@ -114,6 +77,10 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                 .addApi(Wearable.API)
                 .build();
         mGoogleApiClient.connect();
+        adapter = new CustomAdapter(this, getData(), mGoogleApiClient);
+        gv.setAdapter(adapter);
+        dlg = new ProgressDialog(this);
+
     }
 
     @Override
@@ -122,6 +89,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         getMenuInflater().inflate(R.menu.menu_home, menu);
         return true;
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -132,7 +100,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent intent=new Intent(this,SettingsActivity.class);
+            Intent intent = new Intent(this, SettingsActivity.class);
             startActivity(intent);
             return true;
         }
@@ -140,35 +108,27 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    public void onClick(View v) {
-        int id = v.getId();
-        switch (id) {
-            case R.id.sendbtn:
-                newImg = BitmapFactory.decodeResource(getResources(), R.drawable.ambip);
-                syncWatch("oo", "sjdskkk", 11, newImg);
-                break;
-            case R.id.sendbtn1:
-                newImg = BitmapFactory.decodeResource(getResources(), R.drawable.droidverine);
-                syncWatch("oo", "sjdskkk", 11, newImg);
-                break;
-            case  R.id.sendbtnvnm:
-                newImg = BitmapFactory.decodeResource(getResources(), R.drawable.venom);
-                syncWatch("oo", "sjdskkk", 11, newImg);
-                break;
+
+    public void syncWatch(String min, String max, int weatherId, Bitmap bmpy, Context ctx, ProgressDialog progressDialog) {
+        dlg = progressDialog;
+
+        newImg = bmpy;
+        Log.d("chalo", "ssfsf");
+        this.ctx = ctx;
+
+        if (mGoogleApiClient == null) {
+            mGoogleApiClient = new GoogleApiClient.Builder(ctx).addApi(Wearable.API).build();
+            mGoogleApiClient.reconnect();
+            new DownloadFilesTask().execute();
+        } else {
+            new DownloadFilesTask().execute();
+
         }
 
     }
 
 
-    private void syncWatch(String min, String max, int weatherId, Bitmap bitmap) {
-        new DownloadFilesTask().execute();
-    }
-
-
-
     private class DownloadFilesTask extends AsyncTask<Void, Void, String> {
-
 
         @Override
         protected String doInBackground(Void... voids) {
@@ -185,7 +145,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                 putDataMapRequest.getDataMap().putAsset("weather-image", asset);
                 PutDataRequest request = putDataMapRequest.asPutDataRequest();
                 request.setUrgent();
-                Task<DataItem> dataItemTask = Wearable.getDataClient(getApplicationContext()).putDataItem(request);
+                Task<DataItem> dataItemTask = Wearable.getDataClient(ctx).putDataItem(request);
 
                 dataItemTask.addOnSuccessListener(
                         new OnSuccessListener<DataItem>() {
@@ -216,9 +176,8 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
         @Override
         protected void onPreExecute() {
-            dlg.setMessage("Setting WatchFace...");
-            dlg.setCancelable(false);
-            dlg.show();
+
+
             super.onPreExecute();
         }
 
@@ -226,10 +185,41 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         protected void onPostExecute(String s) {
             Log.d("Connected device name", nodename + "");
             dlg.dismiss();
-            if (s != null) {
+
+            if (s != null && connecteddevice != null) {
                 connecteddevice.setText("Connected Device : " + s);
             }
             super.onPostExecute(s);
         }
     }
+
+    private ArrayList getData() {
+        ArrayList<Spacecraft> spacecrafts = new ArrayList<>();
+
+        Spacecraft s = new Spacecraft();
+        s.setName("Droidverine");
+        s.setImage(R.drawable.droidverine);
+        spacecrafts.add(s);
+
+        s = new Spacecraft();
+        s.setName("Abut");
+        s.setImage(R.drawable.ambip);
+        spacecrafts.add(s);
+
+
+        s = new Spacecraft();
+        s.setName("BLah");
+        s.setImage(R.drawable.droidverine);
+        spacecrafts.add(s);
+
+
+        s = new Spacecraft();
+        s.setName("Venom");
+        s.setImage(R.drawable.venom);
+        spacecrafts.add(s);
+
+
+        return spacecrafts;
+    }
+
 }

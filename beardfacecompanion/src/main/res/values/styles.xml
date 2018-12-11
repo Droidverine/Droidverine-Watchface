@@ -5,8 +5,8 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimary</item>
         <item name="colorAccent">#2196F3</item>
-        <item name="colorBackground">#303030</item>
-        <item name="colorCard">#424242</item>
+        <item name="colorBackground">#1d222e</item>
+        <item name="colorCard">#c3474e5f</item>
         <item name="colorText">#ffffff</item>
         <item name="colorTint">#2196F3</item>
         <item name="colorButton">#2196F3</item>
