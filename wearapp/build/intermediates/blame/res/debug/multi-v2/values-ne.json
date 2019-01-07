@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne\\values-ne.xml",
+            "outputFile": "E:\\Droidverine-Watchface\\wearapp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne\\values-ne.xml",
             "map": [
                 {
                     "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\ed0910ce2b8d96b39c1aeeb9e9d4c897\\res\\values-ne\\values.xml",

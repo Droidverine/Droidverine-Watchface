@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Projects\\WatchFaces\\watchface-master\\wearapp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w192dp-v13\\values-w192dp-v13.xml",
+            "outputFile": "E:\\Droidverine-Watchface\\wearapp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w192dp-v13\\values-w192dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.0.aar\\b24313a52277ffd51e8388fa1d34f85a\\res\\values-w192dp-v13\\values.xml",

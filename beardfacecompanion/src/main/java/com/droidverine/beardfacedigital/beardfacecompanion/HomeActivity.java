@@ -38,7 +38,7 @@ import java.util.List;
  */
 
 public class HomeActivity extends AppCompatActivity {
-
+//coolgit commit
     TextView connecteddevice;
     private GoogleApiClient mGoogleApiClient;
     Bitmap newImg;

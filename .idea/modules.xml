@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Droidverine-Watchface.iml" filepath="$PROJECT_DIR$/Droidverine-Watchface.iml" />
       <module fileurl="file://$PROJECT_DIR$/beardfacecompanion/beardfacecompanion.iml" filepath="$PROJECT_DIR$/beardfacecompanion/beardfacecompanion.iml" />
-      <module fileurl="file://$PROJECT_DIR$/watchface-master.iml" filepath="$PROJECT_DIR$/watchface-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/wearapp/wearapp.iml" filepath="$PROJECT_DIR$/wearapp/wearapp.iml" />
     </modules>
   </component>
