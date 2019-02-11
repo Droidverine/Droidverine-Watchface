@@ -2,6 +2,14 @@ Android Wear watch face By DroidVerine
 ===============================
 **Droidverine** is an app made for both Android Wearables and Smartphones. The app demonstrates how communications takes place betwenn Watch and mobile device.
 
+
+ <p align=center>
+  <img src="Preview/wearable.jpeg" width=35%/>  <img src="Preview/poco.jpeg" width=35% />
+
+</p>
+
+
+
 Pre-requisites
 ---------------
 ```
