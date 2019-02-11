@@ -8,22 +8,14 @@ Android Wear watch face By DroidVerine
 
 </p>
 
-
-
-Pre-requisites
----------------
-```
-  1. Android SDK v22 or above.
-  2. Latest Android Build Tools.
-  3. Android Support Repository.
-  4. Wear OS emulator or device.
-```
-
 ## The Project contains following features:
 ```
-  * Android SDK v22 or above.
-  * Latest Android Build Tools.
-  * Android Support Repository.
-  * Wear OS emulator or device.
+  * Sending drawables from companion app to be set as watch face background.
+  * Ambient mode enable/disable.
+  * Always on Screen enable/disable.
+  * Vibrate watch on data recived from companion app.
 ```
+
+
+
 Images used in the project are subject to copyrights..
